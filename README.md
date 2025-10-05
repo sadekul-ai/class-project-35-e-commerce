@@ -3,7 +3,7 @@
 This is e-commerce site. 
 Currently, two official plugins are available:
 
-- [Live website link](www.livelink-comming)
+- [Live website link](https://class-project-35-e-commerce.netlify.app/)
 - [Backend API](https://restcountries.com/v3.1/all)
 
 ## Api End Points
