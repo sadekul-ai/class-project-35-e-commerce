@@ -1,11 +1,15 @@
 import React from "react";
 import logo from "../../../assets/Logo.svg";
+import { Link, Links } from "react-router-dom";
 
 const Header = () => {
   let menuItems = (
     <>
       <li>
-        <a className="">Shop</a>
+        <Link to="/home" className="">Home</Link>
+      </li>
+      <li>
+        <Link to="/shop" className="">Shop</Link>
       </li>
       <li>
         <a className="">Order</a>
@@ -49,7 +53,9 @@ const Header = () => {
             </ul>
           </div>
 
+          <Link to='/'>
           <img src={logo} alt="emma-jhon" />
+          </Link>
         </div>
         {/*===large device==== */}
         <div className="navbar-center hidden lg:flex">

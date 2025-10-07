@@ -1,18 +1,15 @@
+import { createBrowserRouter } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home/Home";
-import Footer from "./components/Shared/Footer/Footer";
-import Header from "./components/Shared/Header/Header";
+import Shop from "./components/Shop/Shop";
+import { RouterProvider } from "react-router";
+import Main from "./layout/Main";
+import NotFound from "./components/NotFound/NotFound";
+import router from "./router/routing/router";
 
 function App() {
-  return (
-    <div>
-      <Header></Header>
-      <Home></Home>
-    
-     
-      
-    </div>
-  );
+  ;
+  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;
